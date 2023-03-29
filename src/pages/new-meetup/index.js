@@ -22,7 +22,7 @@ const NewMeetupPage = () => {
         <title>React Meetups</title>
         <meta name='description' content='Create a new meet up' />
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </>
   );
 };

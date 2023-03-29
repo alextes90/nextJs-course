@@ -19,6 +19,14 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/[meetupId]/index.jsx",
+    "src/pages/_app.tsx",
+    "src/pages/index.js",
+    "src/pages/new-meetup/index.js"
+  ],
   "exclude": ["node_modules"]
 }
